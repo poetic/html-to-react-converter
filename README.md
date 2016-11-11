@@ -8,7 +8,7 @@ using several configuration files.
 You need to create config files for the `htr` cli to extract react components
 and generate other files from html files.
 
-### ./hrc/config.json
+### hrc/config.json
 
 - source:
   - description: The source file or folder for the html files, relative to the project folder.
@@ -20,16 +20,16 @@ and generate other files from html files.
   ```
   {
     "source": ".design/",
-    "destination": "client/components"
+    "destination": "client/"
   }
   ```
 
-### ./hrc/routes.json
+### hrc/routes.json
 
 This file is used to create react Route file so that the generate files are
 a complete react project.
 
-### ./hrc/pages/[PageName].json
+### hrc/pages/[PageName].json
 
 Theses files are used to extract and create react components from htmls.
 We use jquery selector to target the components.
@@ -73,6 +73,17 @@ We use jquery selector to target the components.
     ]
   }
   ```
+
+### CLI
+After you run `htr`, we will create the following contents:
+- path/to/destination/components/
+  This will contain all generated components. For each component, we will
+  generate a container component that you can manipulate.
+- path/to/destination/index.jsx
+  This will contain all the routes
+- htr/staging/
+  This will contain all staging files that when not skipped will be
+  copied to the destination components
 
 ## TODO
 - implement config.json
