@@ -77,11 +77,16 @@ We use jquery selector to target the components.
 ### CLI
 After you run `htr`, we will create the following contents:
 - path/to/destination/components/
+
   This will contain all generated components. For each component, we will
   generate a container component that you can manipulate.
+
 - path/to/destination/index.jsx
+
   This will contain all the routes
+
 - htr/staging/
+
   This will contain all staging files that when not skipped will be
   copied to the destination components
 
