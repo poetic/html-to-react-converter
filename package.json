@@ -1,5 +1,5 @@
 {
-  "name": "html-to-react-convertor",
+  "name": "html-to-react-converter",
   "description": "Convert html files to a react app",
   "main": "lib/index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/poetic/html-to-react-convertor.git"
+    "url": "https://github.com/poetic/html-to-react-converter.git"
   },
   "keywords": [
     "react",
@@ -21,9 +21,9 @@
   "author": "Chun-Yang <yang2007chun@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/poetic/html-to-react-convertor/issues"
+    "url": "https://github.com/poetic/html-to-react-converter/issues"
   },
-  "homepage": "https://github.com/poetic/html-to-react-convertor#readme",
+  "homepage": "https://github.com/poetic/html-to-react-converter#readme",
   "devDependencies": {
     "coveralls": "^2.11.15",
     "istanbul": "^0.4.5",
