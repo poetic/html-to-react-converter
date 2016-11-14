@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/html-to-react/html-to-react-convertor.git"
+    "url": "https://github.com/poetic/html-to-react-convertor.git"
   },
   "keywords": [
     "react",
@@ -18,9 +18,9 @@
   "author": "Chun-Yang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/html-to-react/html-to-react-convertor/issues"
+    "url": "https://github.com/poetic/html-to-react-convertor/issues"
   },
-  "homepage": "https://github.com/html-to-react/html-to-react-convertor#readme",
+  "homepage": "https://github.com/poetic/html-to-react-convertor#readme",
   "devDependencies": {
     "semantic-release": "^4.3.5"
   }
