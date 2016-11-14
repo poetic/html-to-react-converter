@@ -4,6 +4,6 @@ const assert = require('assert')
 
 describe('index.js', function () {
   it('should pass', function () {
-    assert(!htr())
+    assert(typeof (htr) === 'function')
   })
 })

@@ -90,7 +90,4 @@ After you run `htr`, we will create the following contents:
   This will contain all staging files that when not skipped will be
   copied to the destination components
 
-## TODO
-- implement config.json
-- implement pages[PageName].json
-- implement routes.json
+## [TODO](README.TODO.md)
