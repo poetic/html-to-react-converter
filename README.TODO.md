@@ -1,8 +1,7 @@
 # TODO
 
 - NEXT:
-  - a pure plugin system
-  - a bootstrap plugin to provide skeletion for other plugins
+  - the bootstrap plugin to provide skeletion for other plugins
 
 - stage 1: convert files into react components
   - import all the config files, parse as config ( not part of plugin )
@@ -22,5 +21,6 @@
     - props (later)
 
 - stage 2: add container components and resolve dependencies
+  - global components for all pages? config.options.globalComponents?
 
 - stage 3: change urls for react router
