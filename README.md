@@ -15,12 +15,17 @@ and generate other files from html files.
   - default: './'
 - destination:
   - description: The destination folder for all the components
+  - default: 'client/'
+- plugins
+- plugins.[]:
+  - description: Custom plugins as node modules you want to use
 
 - Example:
   ```
   {
-    "source": ".design/",
-    "destination": "client/"
+    "source": ".design/html",
+    "destination": "client/",
+    "plugins": []
   }
   ```
 
@@ -36,7 +41,8 @@ We use jquery selector to target the components.
 
 - file:
   - description: file path relative to the source configured in options.json
-  - required
+  - default: path/to/source/[PageName].html
+- components
 - components.[].selector:
   - description: the selector used to target the html
   - required
@@ -45,6 +51,7 @@ We use jquery selector to target the components.
   - required
 - components.[].skip:
   - description: if skip is true, we do not write to the destination folder
+- components.[].props
 - components.[].props.[].key:
   - description: the key of the prop we apply to the tag
   - required

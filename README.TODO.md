@@ -1,5 +1,11 @@
 # TODO
 
+- NEXT:
+  - how to log error
+    From a end user's point of view, they only want to see relevent error messages
+  - a pure plugin system
+  - a bootstrap plugin to provide skeletion for other plugins
+
 - stage 1: convert files into react components
   - import all the config files, parse as config ( not part of plugin )
   - for each hrc/pages/[PageName].json, we generate components in destination
