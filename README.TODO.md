@@ -1,8 +1,7 @@
 # TODO
 
 - NEXT:
-  - how to log error
-    From a end user's point of view, they only want to see relevent error messages
+  - extract logger into naive-logger
   - a pure plugin system
   - a bootstrap plugin to provide skeletion for other plugins
 
