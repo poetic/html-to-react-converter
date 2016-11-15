@@ -1,7 +1,6 @@
 # TODO
 
 - NEXT:
-  - extract logger into naive-logger
   - a pure plugin system
   - a bootstrap plugin to provide skeletion for other plugins
 
