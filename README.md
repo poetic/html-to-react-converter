@@ -8,7 +8,7 @@ using several configuration files.
 You need to create config files for the `htr` cli to extract react components
 and generate other files from html files.
 
-### hrc/config.json
+### hrc/options.json
 
 - source:
   - description: The source file or folder for the html files, relative to the project folder.
@@ -35,7 +35,7 @@ Theses files are used to extract and create react components from htmls.
 We use jquery selector to target the components.
 
 - file:
-  - description: file path relative to the source configured in config.json
+  - description: file path relative to the source configured in options.json
   - required
 - components.[].selector:
   - description: the selector used to target the html
