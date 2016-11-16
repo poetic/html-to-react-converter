@@ -1,6 +1,6 @@
-# html-to-react-covertor
+# html-to-react-converter
 
-html-to-react-covertor converts htmls to a working and modifiable react app
+html-to-react-converter converts htmls to a working and modifiable react app
 using several configuration files.
 
 ## Usage
